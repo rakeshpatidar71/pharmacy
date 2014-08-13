@@ -1,0 +1,157 @@
+/************css*********************/
+.header{width:100%;
+float: left;
+background: #f0f9ff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjlmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYjRlZGNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNjQlIiBzdG9wLWNvbG9yPSIjZTZmYmYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #f0f9ff 0%, #b4edce 0%, #e6fbf1 64%, #ffffff 98%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(0%,#b4edce), color-stop(64%,#e6fbf1), color-stop(98%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f0f9ff 0%,#b4edce 0%,#e6fbf1 64%,#ffffff 98%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f0f9ff 0%,#b4edce 0%,#e6fbf1 64%,#ffffff 98%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f0f9ff 0%,#b4edce 0%,#e6fbf1 64%,#ffffff 98%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f0f9ff 0%,#b4edce 0%,#e6fbf1 64%,#ffffff 98%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+}
+.logo{margin-top: 15px}
+.logo img{width: 250px;}
+.head_right{
+float: right;
+margin-top: 15px;
+}
+.head_right .language{
+float: right;
+ margin-left: 15px;
+}
+.head_right .social_icon{
+float: left;
+}
+.head_right .social_icon a{
+   background-repeat: no-repeat;
+    background-size: 28px auto;
+    float: left;
+    margin-right: 8px;
+    padding: 10px 0;
+    text-indent: -9999px;
+    width: 28px;
+}
+.head_right .social_icon a.facebook{
+ background-image: url("/assets/facebook.png");
+}
+.head_right .social_icon a.twitter{
+ background-image: url("/assets/twitter.png");
+}
+.head_right .social_icon a.gplus{
+ background-image: url("/assets/gplush.png");
+}
+.head_right .social_icon a.pintrest{
+ background-image: url("/assets/pintrest.png");
+}
+.navigation{
+    background-color: #006633;
+    float: left;
+    height: 47px;
+    margin-top: 15px;
+    width: 100%;
+}
+.nav{ float: left;} 
+.nav ul{
+        float: left;
+    margin-top: 11px;
+    padding-left: 10px;
+}
+.nav ul li{
+        float: left;
+    list-style: none outside none;
+}
+.nav ul li a{
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 14px;
+}
+.nav ul li a:hover{}
+.userlogin{
+    color: #ffffff;
+    float: right;
+    margin-top: 10px;
+}
+.userlogin a{
+        color: #ffffff;
+    margin: 0 5px;
+}
+.userlogin a:hover{
+
+}
+.banner{
+        background: url("/assets/bannerbg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.banner_img{
+
+}
+.banner_img img{
+    width: 100%;
+}
+.search_area{
+    background-color: rgba(0, 102, 51, 0.4);
+    float: left;
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+}
+.search_area a{
+         color: #ffffff;
+    font-size: 20px; 
+}
+.search_area h2{
+     color: #ffffff;
+}
+.search_form{
+width: 100%;
+margin-top: 20px;
+padding-bottom: 20px;
+float:left;
+}
+.search_form form{
+      background: none repeat scroll 0 0 #b3e2d6;
+    border-radius: 3px;
+    display: inline;
+    padding: 15px;  
+}
+.search_form input[type="text"]{
+
+}
+.search_form input[type="submit"]{
+    
+}
+.phone_banner{
+    background: none repeat scroll 0 0 #b3e2d6;
+    float: left;
+    height: 40px;
+    width: 100%;
+}
+.phone_banner .phone_no{
+    color: #000000;
+    float: right;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.phone_banner .phone_no span{
+    color: #006633;
+    font-size: 22px;
+}
+.content{
+        float: left;
+    min-height: 300px;
+    width: 100%;
+}
+.footer{
+        background: none repeat scroll 0 0 #acacac;
+    float: left;
+    height: 60px;
+    padding: 15px 0;
+    width: 100%;
+}

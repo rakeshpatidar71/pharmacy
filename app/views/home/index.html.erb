@@ -1,0 +1,44 @@
+<div class="banner">
+ <div class="container">
+  <div class="search_area">
+    <h2>Pharmacies In Africa</h2>
+    <a href="#">Register for a free account</a>
+    <div class="search_form">
+    <form action="#" method="POST">
+     <input type="text" placeholder="Pharmacy" name="pharmacy">
+     <input type="text" placeholder="Location" name="location">
+     <input type="text" placeholder="Other" name="other">
+     <input type="submit" value="submit">
+    </form>
+    </div>
+  </div>
+ </div>   
+</div>
+<div class="phone_banner">
+  <div class="container">
+     <p class="phone_no"> Call us  <span>(800) 2345-6789</span></p>
+  </div>
+</div>
+<div class="content">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+      <% if member_signed_in? %>
+
+<h3>you have succesfully signed in</h3>
+<%= link_to "Sign Out", destroy_member_session_path, :method => :delete %>
+
+<% else %>
+
+<h1> welcom to rails community</h1>
+<%= link_to "Sign In", new_member_session_path, :method => :get %>
+<%= link_to "Sign up", new_member_registration_path, :method => :get %>
+
+<% end %>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+      dsfs
+    </div>
+    </div>
+  </div>
+</div>
